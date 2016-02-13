@@ -27,7 +27,7 @@ Installation
 When installing **BootChamp 2** you have two options:
 
 1. Compile the project from source.
-2. Download the binary `here <https://github.com/jkbrzt/httpie/blob/master/builds/v1b.zip>`!
+2. Download the binary [here](builds/v1.zip)!
 
 It's that easy, just pick a method and you'll be rebooting in seconds.
 
@@ -36,7 +36,7 @@ It's that easy, just pick a method and you'll be rebooting in seconds.
 Licence
 =======
 
-Please see `LICENSE <https://github.com/JFKingsley/BootChamp2/blob/master/LICENSE>`.
+Please see [LICENSE](LICENSE).
 
 
 And say hi to these fine people who helped build me:
