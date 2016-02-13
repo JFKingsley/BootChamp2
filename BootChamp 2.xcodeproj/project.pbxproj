@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABEA33031C5B029C001CBBE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA33021C5B029C001CBBE2 /* AppDelegate.swift */; };
+		ABEA33051C5B029C001CBBE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABEA33041C5B029C001CBBE2 /* Assets.xcassets */; };
+		ABEA33081C5B029C001CBBE2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABEA33061C5B029C001CBBE2 /* MainMenu.xib */; };
+		ABEA332F1C5B18D4001CBBE2 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA332E1C5B18D4001CBBE2 /* StatusMenuController.swift */; };
+		ABEA33331C5B1D4A001CBBE2 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEA33321C5B1D4A001CBBE2 /* ApplicationServices.framework */; };
+		ABEA33361C5B1EE4001CBBE2 /* BootOnLoginHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA33351C5B1EE4001CBBE2 /* BootOnLoginHandler.swift */; };
+		ABEA333A1C5B26B6001CBBE2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABEA333C1C5B26B6001CBBE2 /* Localizable.strings */; };
+		ABEA333E1C5B2CB8001CBBE2 /* DiskManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEA333D1C5B2CB8001CBBE2 /* DiskManagement.framework */; };
+		ABEA33401C5B2CC6001CBBE2 /* DiskArbitration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEA333F1C5B2CC6001CBBE2 /* DiskArbitration.framework */; };
+		ABEA33421C5B2E8E001CBBE2 /* DiskHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA33411C5B2E8E001CBBE2 /* DiskHandler.swift */; };
+		ABEA33481C5BCC8F001CBBE2 /* BCDisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABEA33471C5BCC8F001CBBE2 /* BCDisk.swift */; };
+		ABEA334C1C5C6B99001CBBE2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABEA334B1C5C6B99001CBBE2 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ABA027731C61C1150021DCD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ABEA32FF1C5B029C001CBBE2 /* BootChamp 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BootChamp 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABEA33021C5B029C001CBBE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABEA33041C5B029C001CBBE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABEA33071C5B029C001CBBE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ABEA33091C5B029C001CBBE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABEA332E1C5B18D4001CBBE2 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		ABEA33321C5B1D4A001CBBE2 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		ABEA33351C5B1EE4001CBBE2 /* BootOnLoginHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BootOnLoginHandler.swift; sourceTree = "<group>"; };
+		ABEA333B1C5B26B6001CBBE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ABEA333D1C5B2CB8001CBBE2 /* DiskManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DiskManagement.framework; sourceTree = "<group>"; };
+		ABEA333F1C5B2CC6001CBBE2 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = System/Library/Frameworks/DiskArbitration.framework; sourceTree = SDKROOT; };
+		ABEA33411C5B2E8E001CBBE2 /* DiskHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskHandler.swift; sourceTree = "<group>"; };
+		ABEA33431C5B307A001CBBE2 /* BootChamp2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BootChamp2-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABEA33441C5B400F001CBBE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ABEA33471C5BCC8F001CBBE2 /* BCDisk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BCDisk.swift; sourceTree = "<group>"; };
+		ABEA334B1C5C6B99001CBBE2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABEA32FC1C5B029C001CBBE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA334C1C5C6B99001CBBE2 /* Carbon.framework in Frameworks */,
+				ABEA33401C5B2CC6001CBBE2 /* DiskArbitration.framework in Frameworks */,
+				ABEA333E1C5B2CB8001CBBE2 /* DiskManagement.framework in Frameworks */,
+				ABEA33331C5B1D4A001CBBE2 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABEA32F61C5B029C001CBBE2 = {
+			isa = PBXGroup;
+			children = (
+				ABEA33011C5B029C001CBBE2 /* BootChamp 2 */,
+				ABEA33001C5B029C001CBBE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABEA33001C5B029C001CBBE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA32FF1C5B029C001CBBE2 /* BootChamp 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABEA33011C5B029C001CBBE2 /* BootChamp 2 */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA33021C5B029C001CBBE2 /* AppDelegate.swift */,
+				ABEA332C1C5B186D001CBBE2 /* View Controllers */,
+				ABEA332D1C5B1879001CBBE2 /* Handlers */,
+				ABEA332B1C5B1818001CBBE2 /* Supporting Files */,
+				ABEA33341C5B1D88001CBBE2 /* Frameworks */,
+			);
+			path = "BootChamp 2";
+			sourceTree = "<group>";
+		};
+		ABEA332B1C5B1818001CBBE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA33431C5B307A001CBBE2 /* BootChamp2-Bridging-Header.h */,
+				ABEA333C1C5B26B6001CBBE2 /* Localizable.strings */,
+				ABEA33041C5B029C001CBBE2 /* Assets.xcassets */,
+				ABEA33091C5B029C001CBBE2 /* Info.plist */,
+				ABEA33061C5B029C001CBBE2 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABEA332C1C5B186D001CBBE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA332E1C5B18D4001CBBE2 /* StatusMenuController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ABEA332D1C5B1879001CBBE2 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA33411C5B2E8E001CBBE2 /* DiskHandler.swift */,
+				ABEA33351C5B1EE4001CBBE2 /* BootOnLoginHandler.swift */,
+				ABEA33471C5BCC8F001CBBE2 /* BCDisk.swift */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		ABEA33341C5B1D88001CBBE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABEA334B1C5C6B99001CBBE2 /* Carbon.framework */,
+				ABEA33441C5B400F001CBBE2 /* Foundation.framework */,
+				ABEA333F1C5B2CC6001CBBE2 /* DiskArbitration.framework */,
+				ABEA333D1C5B2CB8001CBBE2 /* DiskManagement.framework */,
+				ABEA33321C5B1D4A001CBBE2 /* ApplicationServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABEA32FE1C5B029C001CBBE2 /* BootChamp 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABEA33221C5B029D001CBBE2 /* Build configuration list for PBXNativeTarget "BootChamp 2" */;
+			buildPhases = (
+				ABEA32FB1C5B029C001CBBE2 /* Sources */,
+				ABEA32FC1C5B029C001CBBE2 /* Frameworks */,
+				ABEA32FD1C5B029C001CBBE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BootChamp 2";
+			productName = "BootChamp 2";
+			productReference = ABEA32FF1C5B029C001CBBE2 /* BootChamp 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABEA32F71C5B029C001CBBE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JFKingsley;
+				TargetAttributes = {
+					ABEA32FE1C5B029C001CBBE2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ABEA32FA1C5B029C001CBBE2 /* Build configuration list for PBXProject "BootChamp 2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABEA32F61C5B029C001CBBE2;
+			productRefGroup = ABEA33001C5B029C001CBBE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABEA32FE1C5B029C001CBBE2 /* BootChamp 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABEA32FD1C5B029C001CBBE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA33051C5B029C001CBBE2 /* Assets.xcassets in Resources */,
+				ABEA333A1C5B26B6001CBBE2 /* Localizable.strings in Resources */,
+				ABEA33081C5B029C001CBBE2 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABEA32FB1C5B029C001CBBE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA332F1C5B18D4001CBBE2 /* StatusMenuController.swift in Sources */,
+				ABEA33481C5BCC8F001CBBE2 /* BCDisk.swift in Sources */,
+				ABEA33421C5B2E8E001CBBE2 /* DiskHandler.swift in Sources */,
+				ABEA33031C5B029C001CBBE2 /* AppDelegate.swift in Sources */,
+				ABEA33361C5B1EE4001CBBE2 /* BootOnLoginHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABEA33061C5B029C001CBBE2 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEA33071C5B029C001CBBE2 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ABEA333C1C5B26B6001CBBE2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABEA333B1C5B26B6001CBBE2 /* en */,
+				ABA027731C61C1150021DCD6 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABEA33201C5B029D001CBBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABEA33211C5B029D001CBBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ABEA33231C5B029D001CBBE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+					"$(PROJECT_DIR)/BootChamp",
+					2,
+				);
+				INFOPLIST_FILE = "BootChamp 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfkingsley.BootChamp-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BootChamp 2/BootChamp2-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		ABEA33241C5B029D001CBBE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/**",
+					"$(inherited)",
+					"$(PROJECT_DIR)/BootChamp",
+					2,
+				);
+				INFOPLIST_FILE = "BootChamp 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jfkingsley.BootChamp-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BootChamp 2/BootChamp2-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABEA32FA1C5B029C001CBBE2 /* Build configuration list for PBXProject "BootChamp 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEA33201C5B029D001CBBE2 /* Debug */,
+				ABEA33211C5B029D001CBBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABEA33221C5B029D001CBBE2 /* Build configuration list for PBXNativeTarget "BootChamp 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEA33231C5B029D001CBBE2 /* Debug */,
+				ABEA33241C5B029D001CBBE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABEA32F71C5B029C001CBBE2 /* Project object */;
+}

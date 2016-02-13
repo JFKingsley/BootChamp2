@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="9531"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="Voe-Tx-rLC" id="GzC-gU-4Uq"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="BootChamp_2" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="Vs6-cb-gdB" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="BootChamp_2" customModuleProvider="target">
+            <connections>
+                <outlet property="aboutItem" destination="Umg-4Z-T1T" id="rj5-3y-mHc"/>
+                <outlet property="checkUpdatesItem" destination="A3K-H9-bC2" id="qNQ-j4-OtS"/>
+                <outlet property="launchAtLoginItem" destination="M5c-BS-7zK" id="owa-1a-RSS"/>
+                <outlet property="preferencesItem" destination="58v-sY-YEJ" id="jF8-nx-ZlE"/>
+                <outlet property="quitItem" destination="HYH-CK-0eu" id="qpU-8I-b6p"/>
+                <outlet property="restartItem" destination="egT-z7-Ygq" id="Yz3-ga-alm"/>
+                <outlet property="statusMenu" destination="pjm-0b-IPc" id="NSM-2d-Zwb"/>
+            </connections>
+        </customObject>
+        <menu autoenablesItems="NO" id="pjm-0b-IPc">
+            <items>
+                <menuItem title="Restart into Windows" id="egT-z7-Ygq">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="MpP-Bz-gvd"/>
+                <menuItem title="Preferences" id="58v-sY-YEJ">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="Preferences" id="1pm-9P-1Fx">
+                        <items>
+                            <menuItem title="Launch at Startup" id="M5c-BS-7zK">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="launchAtStartupClicked:" target="Vs6-cb-gdB" id="ra6-RU-aet"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
+                <menuItem title="Check for Updates..." enabled="NO" id="A3K-H9-bC2">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="About BootChamp 2" id="Umg-4Z-T1T">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="aboutClicked:" target="Vs6-cb-gdB" id="8CZ-q9-eOv"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="oHK-Ry-fWw"/>
+                <menuItem title="Quit" id="HYH-CK-0eu">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="Vs6-cb-gdB" id="ysb-sB-Zz6"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+    </objects>
+</document>
