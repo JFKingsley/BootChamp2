@@ -15,7 +15,7 @@ Main Features
 * Completely rebuilt codebase (in Swift!)
 * Proper UEFI support
 * No administrator access required
-* Fully sandboxed
+* Fully sandboxed* (Start on Login not included)
 * Mac OS X 10.11+ supported
 
 
