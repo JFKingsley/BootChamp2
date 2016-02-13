@@ -1,5 +1,5 @@
 ****************************************
-######BootChamp 2: a menubar app for BootCamping
+######BootChamp 2: Bringing Booty Back
 ****************************************
 
 ***BootChamp 2 is currently in beta.. We're still working out the kinks, so be careful.***
