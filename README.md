@@ -27,7 +27,7 @@ Installation
 When installing **BootChamp 2** you have two options:
 
 1. Compile the project from source.
-2. Download the binary [here](builds/v1.zip)!
+2. Download the binary [here](builds/v1.zip?raw=true)!
 
 It's that easy, just pick a method and you'll be rebooting in seconds.
 
