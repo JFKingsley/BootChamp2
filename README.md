@@ -5,7 +5,7 @@
 ***BootChamp 2 is currently in beta.. We're still working out the kinks, so be careful.***
 
 BootChamp 2 is a **menubar app for fast rebooting**. 
-It's a spiritual successor to the original BootChamp, which was an amazing tool until it's untimely demise in the Fall of 2014. This revised version allows you to reboot with one click once agan, but does utilise private frameworks, so your mileage may vary.
+It's a spiritual successor to the original [BootChamp](https://github.com/kainjow/BootChamp), which was an amazing tool until it's [untimely demise](http://kainjow.tumblr.com/post/128933657269/bootchamp-and-el-capitan) in the Fall of 2014. This revised version allows you to reboot with one click once agan, but does utilise private frameworks, so your mileage may vary.
 
 =============
 Main Features
